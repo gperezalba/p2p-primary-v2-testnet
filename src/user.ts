@@ -93,6 +93,7 @@ export function createUserIfNull(userId: string): void {
         user.isOfferLocked = [];
         user.isCommodityOfferLocked = [];
         user.isPackableOfferLocked = [];
+        user.allowedTokens = [];
 
         user.save();
     }
