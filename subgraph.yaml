@@ -21,7 +21,7 @@ dataSources:
         - VoteDeal
         - AuditorNotification
       abis:
-        - name: PIBP2P
+        - name: PIBP2PReputation
           file: ./abis/PIBP2P.json
         - name: NameService
           file: ./abis/NameService.json
